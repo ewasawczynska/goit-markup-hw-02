@@ -1,55 +1,66 @@
+:root {
+  --highlights: #2196f3;
+  --titles: #212121;
+  --logo: #000000;
+  --mainandaddress: #ffffff;
+  --background1: #2f303a;
+  --background2: #f5f4fa;
+  --descriptions: #757575;
+}
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Montserrat", "Open Sans", "Arial", sans-serif;
 }
 a {
   text-decoration: none;
-  color: #212121;
+  color: var(--titles);
 }
 .logo {
   font-weight: 700;
   font-size: 26;
-  color: #000000;
+  color: var(--logo);
+  font-family: "Raleway", sans-serif;
 }
 .web {
-  color: #2196f3;
+  color: var(--highlights);
 }
 .navigation {
   font-weight: 500;
   font-size: 14;
-  color: #212121;
+  color: var(--titles);
   text-decoration: none;
 }
 
 .link:focus,
 .link:active {
-  color: #2196f3;
+  color: var(--highlights);
 }
 
 .contact {
   font-weight: 500;
   font-size: 14;
-  color: #757575;
+  color: var(--descriptions);
   text-decoration: none;
 }
 
 .contact:focus,
 .contact:active {
-  color: #2196f3;
+  color: var(--highlights);
 }
 
 .main {
-  background-color: #2f303a;
+  background-color: var(--background1);
 }
 
 .main-text {
   font-weight: 900;
   font-size: 44;
-  color: #ffffff;
+  color: var(--mainandaddress);
+  line-height: 1.4;
 }
 
 .main-button {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--highlights);
+  color: var(--mainandaddress);
   font-weight: 700;
   font-size: 16;
   cursor: pointer;
@@ -57,27 +68,27 @@ a {
 
 .category-buttons {
   list-style-type: none;
-  background-color: #f5f4fa;
-  color: #212121;
+  background-color: var(--background2);
+  color: var(--titles);
   font-weight: 500;
   font-size: 16;
   cursor: pointer;
 }
 .category-buttons:focus,
 .category-buttons:active {
-  color: #2196f3;
+  color: var(--highlights);
 }
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--background1);
 }
 .footer > .logo {
   font-weight: 700;
   font-size: 26;
-  color: #000000;
+  color: var(--logo);
 }
 .address {
-  color: #ffffff;
+  color: var(--mainandaddress);
 }
 
 .contact-footer {
@@ -86,7 +97,7 @@ a {
 
 .contact-footer:focus,
 .contact-footer:active {
-  color: #2196f3;
+  color: var(--highlights);
 }
 
 .title-list {
@@ -95,38 +106,42 @@ a {
 
 .title {
   font-weight: 700;
-  color: #212121;
+  color: var(--titles);
 }
 
 .text {
-  color: #757575;
+  color: var(--descriptions);
 }
 
 .section-title {
   font-weight: 700;
   font-size: 36;
-  color: #212121;
+  color: var(--titles);
+}
+
+.section-title-background {
+  background-color: var(--background2);
 }
 
 .name {
   font-weight: 500;
   font-size: 16;
-  color: #212121;
+  color: var(--titles);
 }
 
 .job {
   font-size: 16;
-  color: #757575;
+  color: var(--descriptions);
 }
 
 .portfolio-title {
   font-weight: 700;
   font-size: 18;
-  color: #212121;
+  color: var(--titles);
 }
 
 .portfolio-type {
   font-weight: 400;
   font-size: 16;
-  color: #757575;
+  color: var(--descriptions);
 }
