@@ -88,3 +88,45 @@ a {
 .contact-footer:active {
   color: #2196f3;
 }
+
+.title-list {
+  list-style-type: none;
+}
+
+.title {
+  font-weight: 700;
+  color: #212121;
+}
+
+.text {
+  color: #757575;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36;
+  color: #212121;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16;
+  color: #212121;
+}
+
+.job {
+  font-size: 16;
+  color: #757575;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18;
+  color: #212121;
+}
+
+.portfolio-type {
+  font-weight: 400;
+  font-size: 16;
+  color: #757575;
+}
