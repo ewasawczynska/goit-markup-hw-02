@@ -67,3 +67,24 @@ a {
 .category-buttons:active {
   color: #2196f3;
 }
+
+.footer {
+  background-color: #2f303a;
+}
+.footer > .logo {
+  font-weight: 700;
+  font-size: 26;
+  color: #000000;
+}
+.address {
+  color: #ffffff;
+}
+
+.contact-footer {
+  color: rgba(255, 255, 255, 60%);
+}
+
+.contact-footer:focus,
+.contact-footer:active {
+  color: #2196f3;
+}
