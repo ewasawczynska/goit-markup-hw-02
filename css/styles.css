@@ -1,0 +1,69 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #212121;
+}
+.logo {
+  font-weight: 700;
+  font-size: 26;
+  color: #000000;
+}
+.web {
+  color: #2196f3;
+}
+.navigation {
+  font-weight: 500;
+  font-size: 14;
+  color: #212121;
+  text-decoration: none;
+}
+
+.link:focus,
+.link:active {
+  color: #2196f3;
+}
+
+.contact {
+  font-weight: 500;
+  font-size: 14;
+  color: #757575;
+  text-decoration: none;
+}
+
+.contact:focus,
+.contact:active {
+  color: #2196f3;
+}
+
+.main {
+  background-color: #2f303a;
+}
+
+.main-text {
+  font-weight: 900;
+  font-size: 44;
+  color: #ffffff;
+}
+
+.main-button {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16;
+  cursor: pointer;
+}
+
+.category-buttons {
+  list-style-type: none;
+  background-color: #f5f4fa;
+  color: #212121;
+  font-weight: 500;
+  font-size: 16;
+  cursor: pointer;
+}
+.category-buttons:focus,
+.category-buttons:active {
+  color: #2196f3;
+}
