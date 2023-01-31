@@ -19,6 +19,7 @@ a {
   font-size: 26;
   color: var(--logo);
   font-family: "Raleway", sans-serif;
+  line-height: 1.2;
 }
 .web {
   color: var(--highlights);
@@ -28,6 +29,7 @@ a {
   font-size: 14;
   color: var(--titles);
   text-decoration: none;
+  line-height: 1.2;
 }
 
 .link:focus,
@@ -40,6 +42,7 @@ a {
   font-size: 14;
   color: var(--descriptions);
   text-decoration: none;
+  line-height: 1.2;
 }
 
 .contact:focus,
@@ -64,6 +67,7 @@ a {
   font-weight: 700;
   font-size: 16;
   cursor: pointer;
+  line-height: 1.9;
 }
 
 .category-buttons {
@@ -73,6 +77,7 @@ a {
   font-weight: 500;
   font-size: 16;
   cursor: pointer;
+  line-height: 1.6;
 }
 .category-buttons:focus,
 .category-buttons:active {
@@ -86,6 +91,7 @@ a {
   font-weight: 700;
   font-size: 26;
   color: var(--logo);
+  line-height: 1.2;
 }
 .address {
   color: var(--mainandaddress);
@@ -107,6 +113,7 @@ a {
 .title {
   font-weight: 700;
   color: var(--titles);
+  line-height: 1.2;
 }
 
 .text {
@@ -117,6 +124,7 @@ a {
   font-weight: 700;
   font-size: 36;
   color: var(--titles);
+  line-height: 1.2;
 }
 
 .section-title-background {
@@ -127,21 +135,25 @@ a {
   font-weight: 500;
   font-size: 16;
   color: var(--titles);
+  line-height: 1.2;
 }
 
 .job {
   font-size: 16;
   color: var(--descriptions);
+  line-height: 1.2;
 }
 
 .portfolio-title {
   font-weight: 700;
   font-size: 18;
   color: var(--titles);
+  line-height: 2;
 }
 
 .portfolio-type {
   font-weight: 400;
   font-size: 16;
   color: var(--descriptions);
+  line-height: 1.9;
 }
