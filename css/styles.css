@@ -9,14 +9,15 @@
 }
 body {
   font-family: "Roboto", "Montserrat", "Open Sans", "Arial", sans-serif;
+  color: var(--titles);
+  letter-spacing: 0.03em;
 }
 a {
   text-decoration: none;
-  color: var(--titles);
 }
 .logo {
   font-weight: 700;
-  font-size: 26;
+  font-size: 26px;
   color: var(--logo);
   font-family: "Raleway", sans-serif;
   line-height: 1.2;
@@ -26,10 +27,9 @@ a {
 }
 .navigation {
   font-weight: 500;
-  font-size: 14;
-  color: var(--titles);
   text-decoration: none;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .link:focus,
@@ -39,7 +39,6 @@ a {
 
 .contact {
   font-weight: 500;
-  font-size: 14;
   color: var(--descriptions);
   text-decoration: none;
   line-height: 1.2;
@@ -56,16 +55,18 @@ a {
 
 .main-text {
   font-weight: 900;
-  font-size: 44;
+  font-size: 44px;
   color: var(--mainandaddress);
   line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .main-button {
   background-color: var(--highlights);
   color: var(--mainandaddress);
   font-weight: 700;
-  font-size: 16;
+  font-size: 16px;
   cursor: pointer;
   line-height: 1.9;
 }
@@ -73,9 +74,8 @@ a {
 .category-buttons {
   list-style-type: none;
   background-color: var(--background2);
-  color: var(--titles);
   font-weight: 500;
-  font-size: 16;
+  font-size: 16px;
   cursor: pointer;
   line-height: 1.6;
 }
@@ -87,14 +87,15 @@ a {
 .footer {
   background-color: var(--background1);
 }
-.footer > .logo {
+.logo-footer {
   font-weight: 700;
-  font-size: 26;
+  font-size: 26px;
   color: var(--logo);
-  line-height: 1.2;
+  line-height: 1.4;
 }
 .address {
   color: var(--mainandaddress);
+  line-height: 1.7;
 }
 
 .contact-footer {
@@ -112,7 +113,6 @@ a {
 
 .title {
   font-weight: 700;
-  color: var(--titles);
   line-height: 1.2;
 }
 
@@ -122,8 +122,7 @@ a {
 
 .section-title {
   font-weight: 700;
-  font-size: 36;
-  color: var(--titles);
+  font-size: 36px;
   line-height: 1.2;
 }
 
@@ -133,27 +132,26 @@ a {
 
 .name {
   font-weight: 500;
-  font-size: 16;
-  color: var(--titles);
+  font-size: 16px;
   line-height: 1.2;
 }
 
 .job {
-  font-size: 16;
+  font-size: 16px;
   color: var(--descriptions);
   line-height: 1.2;
 }
 
 .portfolio-title {
   font-weight: 700;
-  font-size: 18;
-  color: var(--titles);
+  font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .portfolio-type {
   font-weight: 400;
-  font-size: 16;
+  font-size: 16px;
   color: var(--descriptions);
   line-height: 1.9;
 }
