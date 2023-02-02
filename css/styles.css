@@ -32,8 +32,13 @@ a {
   letter-spacing: 0.02em;
 }
 
+.link {
+  color: inherit;
+}
+
 .link:focus,
-.link:active {
+.link:active,
+.link:hover {
   color: var(--highlights);
 }
 
@@ -84,18 +89,34 @@ a {
   color: var(--highlights);
 }
 
+.button {
+  background-color: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+
+.button:focus,
+.button:active,
+.button:hover {
+  background-color: var(--highlights);
+  color: var(--mainandaddress);
+}
+
 .footer {
   background-color: var(--background1);
 }
 .logo-footer {
   font-weight: 700;
   font-size: 26px;
-  color: var(--logo);
+  color: var(--mainandaddress);
   line-height: 1.4;
 }
 .address {
   color: var(--mainandaddress);
   line-height: 1.7;
+  font-style: normal;
 }
 
 .contact-footer {
